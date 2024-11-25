@@ -27,6 +27,7 @@
 		54B2EEE52CF337E40051125C /* Kartenspiel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kartenspiel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B2EEF52CF337E60051125C /* KartenspielTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartenspielTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B2EEFF2CF337E70051125C /* KartenspielUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KartenspielUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B2EF542CF355460051125C /* Kartenspiel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Kartenspiel.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		54B2EEDC2CF337E40051125C = {
 			isa = PBXGroup;
 			children = (
+				54B2EF542CF355460051125C /* Kartenspiel.xcodeproj */,
 				54B2EEE72CF337E40051125C /* Kartenspiel */,
 				54B2EEF82CF337E70051125C /* KartenspielTests */,
 				54B2EF022CF337E70051125C /* KartenspielUITests */,
@@ -89,6 +91,11 @@
 				54B2EEF52CF337E60051125C /* KartenspielTests.xctest */,
 				54B2EEFF2CF337E70051125C /* KartenspielUITests.xctest */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54B2EF7B2CF3592A0051125C /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -198,6 +205,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 54B2EEE62CF337E40051125C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 54B2EF7B2CF3592A0051125C /* Products */;
+					ProjectRef = 54B2EF542CF355460051125C /* Kartenspiel.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				54B2EEE42CF337E40051125C /* Kartenspiel */,
@@ -396,6 +409,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Kartenspiel/Preview Content\"";
+				DEVELOPMENT_TEAM = B26D7F4MQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Kartenspiel/Preview Content\"";
+				DEVELOPMENT_TEAM = B26D7F4MQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
