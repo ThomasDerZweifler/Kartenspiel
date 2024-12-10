@@ -123,7 +123,7 @@ struct AddGameView: View {
                     }
                 }
             }
-            .navigationTitle("Neues Spiel")
+            .navigationTitle("Neues Spiel (\(player.name))")
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Abbrechen") {
