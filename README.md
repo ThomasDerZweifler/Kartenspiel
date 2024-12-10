@@ -21,3 +21,5 @@
   <img src="./assets/screenshotb.png" width="110" />
   <img src="./assets/screenshotc.png" width="110" />
 </p>
+
+[Chatverlauf](KartenspielByWindsurf_Chat.pdf) mit KI
